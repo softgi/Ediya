@@ -1,0 +1,59 @@
+.about__container {
+    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25), 0 8px 16px -8px rgba(0, 0, 0, 0.3),
+      0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+    padding: 30px;
+    border-radius: 5px;
+    background: linear-gradient(to bottom right, rgba(255, 254, 210, 0.555), rgba(210, 255, 221, 0.274));
+    margin: auto;
+    margin-top: 100px;
+    width: 100%;
+  }
+
+.table-active{
+    font-size : 15px;
+    font-family: 'Gowun Dodum', sans-serif;
+}
+
+.table>thead{
+    height: 45px;
+}
+
+.table_body>tr:last-child{
+    height: 50px;
+}
+
+.btn_info {
+    width: 50px;
+    padding: 5px;
+    background-color: rgba(126, 206, 106, 0.767);
+    border-radius: 8px;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    color: rgb(73, 72, 72);
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Gowun Dodum', sans-serif;
+}
+
+.btn_list{
+    width: 65px;
+    padding: 5px;
+    background-color: rgb(226, 220, 220);
+    border-radius: 8px;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    color: rgb(73, 72, 72);
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Gowun Dodum', sans-serif;
+}
+
+.btn_info:hover{
+    background-color: rgba(19, 80, 4, 0.767);
+    color: rgb(230, 230, 230);
+    cursor: pointer;
+}
+
+.btn_list:hover{
+    cursor: pointer;
+}

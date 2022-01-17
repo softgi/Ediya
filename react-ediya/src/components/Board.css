@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,600;1,700&family=DM+Sans&family=Kaisei+HarunoUmi:wght@500&family=Lora:ital,wght@1,400;1,500;1,600&family=Noto+Sans+KR&family=Oswald:wght@300&family=Oxygen&family=PT+Sans+Narrow:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,600;1,700&family=DM+Sans&family=Gamja+Flower&family=Kaisei+HarunoUmi:wght@500&family=Lora:ital,wght@1,400;1,500;1,600&family=Nanum+Brush+Script&family=Noto+Sans+KR&family=Oswald:wght@300&family=Oxygen&family=PT+Sans+Narrow:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Gowun+Dodum&family=Shadows+Into+Light&display=swap');
+
+.board__container{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 35px;
+  background: linear-gradient(to right bottom, rgb(253, 243, 231), rgb(235, 243, 204), rgba(206, 229, 238, 0.973));
+  /* background-color:rgba(248, 248, 243, 0.5); */
+  margin: 0 auto;
+  margin-top: 150px;
+  width: 100%;
+  max-width: 900px;
+  height: 400px;
+  font-weight: 300;
+  font-family: 'Gowun Dodum', sans-serif;
+  vertical-align: middle;
+ 
+  
+}
+
+.board_bg{
+    /* background-image: url('https://www.nassouthsudan.com/wp-content/uploads/2019/10/countdown.jpg'); */
+    /* background-size: cover; */
+    background-color: rgba(245, 245, 245, 0.904);
+    margin-top: 56px;
+    /* background: linear-gradient(#00eaff,transparent), 
+                linear-gradient(-45deg,#ff2c7b,transparent), 
+                linear-gradient(45deg,#fff000,transparent); 
+                background-blend-mode: sreen; */
+
+     
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
+        
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+        
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+    .board_bg {
+       left: 50%;
+       margin-left: -512px;   /*50%*/      
+    }
+    
+}
+
+
+
+.table-striped{
+    width: 100%;
+    height: auto;
+    border-collapse: collapse;
+    border : solid 3px rgba(0, 0, 0, 0.932);
+    margin: auto 0;
+
+    
+
+    /* position: absolute; */
+    
+    /* margin-top: 50%; */
+}
+
+.thead_box{
+    height: 40px;
+    background-color: rgba(12, 102, 124, 0.37);
+    margin: auto 0;
+}
+
+.tb._box{
+    height:150px;
+    margin: auto 0;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&family=Gugi&display=swap');
+.tr_box>th{
+    font-size: 16px;
+    font-weight: 650;
+    color:rgba(0, 0, 0, 0.699);
+    padding:5px;
+    border-bottom: solid 0.5px rgba(206, 205, 205, 0.932);
+}
+
+.tr_box>th :last-child{
+    border : none;
+}
+
+.tb_box{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.733);    
+}
+
+.tb_box>tr>td{
+    padding:6px;
+}
+
+.tb_box>tr>td :last-child{
+    border : none;
+}
+
+.tb_box>tr>td a{
+    text-decoration: none;
+}
+
+.btn_home{
+    /*border: outset 2px rgb(226, 220, 220); */
+    margin: 30px 0px 0px 0px;
+    width: 80px;
+    padding: 7px;
+    background-color: rgb(226, 220, 220);
+    border-radius: 8px;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    color: rgb(73, 72, 72);
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Gowun Dodum', sans-serif;
+}
+
+.btn_new{
+    width: 65px;
+    padding: 7px;
+    background-color: rgba(126, 206, 106, 0.767);
+    border-radius: 8px;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    color: rgb(73, 72, 72);
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Gowun Dodum', sans-serif;
+}
+
+.btn_new:hover{
+    background-color: rgba(19, 80, 4, 0.767);
+    color: rgb(230, 230, 230);
+    cursor: pointer;
+}
+
+.btn_home:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
